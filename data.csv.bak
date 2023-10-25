@@ -1,0 +1,2 @@
+channelid	country	products	maxDistance	zip	webhookURL	bannedStores	handleExceptionDelay	normalMonitorDelay	notificationTimeout
+1161118887753031760	au	MGYH3ZA/A	25	200	https://discord.com/api/webhooks/1161119390272602153/sXFFHo3eXVVKQ964bTl0WfghPcjGKMNhRKsxQRvTTvhfl3qsJJwtELlp1iHYqwnK3IfC		3000	1000	15000

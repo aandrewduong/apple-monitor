@@ -1,0 +1,119 @@
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T21:51:39.835Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T21:51:39.837Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:51:39.838Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T21:51:40.856Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:51:45.547Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T21:51:46.590Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:51:51.110Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T21:51:51.955Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:51:53.673Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T21:51:54.466Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:51:57.067Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T21:51:58.487Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:52:01.693Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T21:52:02.855Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:52:06.376Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T21:52:07.244Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T21:52:11.091Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:00:30.929Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:00:30.931Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:00:30.931Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:00:32.125Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:38:17.209Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:38:17.211Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:38:17.212Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:38:18.702Z"}
+{"level":"error","timestamp":"2023-10-01T22:38:18.704Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:38:42.159Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:38:42.161Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:38:42.162Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:38:43.741Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:38:45.621Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:38:46.549Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:38:50.049Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:38:51.287Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:38:52.534Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:38:53.484Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:38:57.678Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:38:59.069Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:38:59.071Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:38:59.072Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:39:00.161Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:39:02.055Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:39:13.457Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:39:13.459Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:39:13.460Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:39:14.440Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:39:37.607Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:39:37.609Z"}
+{"level":"info","message":"Checking product availability for products: MU663LL/A,MU673LL/A,MU683LL/A,MU693LL/A","timestamp":"2023-10-01T22:39:37.609Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:39:38.689Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:39:52.410Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:39:52.413Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:39:52.413Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:39:53.354Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:39:57.849Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:39:58.868Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:40:14.509Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:40:14.511Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:40:14.511Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:40:15.327Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:40:16.892Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:40:17.730Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:40:49.777Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:40:49.779Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:40:49.779Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:40:50.844Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:40:55.619Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:40:56.444Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:40:57.856Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:40:58.967Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:41:01.598Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:41:01.600Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:41:01.600Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:41:02.428Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Oakridge","timestamp":"2023-10-01T22:41:02.429Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Valley Fair","timestamp":"2023-10-01T22:41:02.441Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Park Visitor Center","timestamp":"2023-10-01T22:41:02.442Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Los Gatos","timestamp":"2023-10-01T22:41:02.442Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Infinite Loop","timestamp":"2023-10-01T22:41:02.443Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:41:04.909Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:43:19.007Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:43:19.009Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:43:19.010Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:43:20.074Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Oakridge","timestamp":"2023-10-01T22:43:20.075Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Valley Fair","timestamp":"2023-10-01T22:43:20.087Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Park Visitor Center","timestamp":"2023-10-01T22:43:20.088Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Tomorrow at Apple Los Gatos","timestamp":"2023-10-01T22:43:20.089Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Infinite Loop","timestamp":"2023-10-01T22:43:20.089Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:43:24.177Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:43:24.949Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:43:26.113Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:43:27.765Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Los Gatos","timestamp":"2023-10-01T22:43:27.765Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:43:47.114Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:43:47.117Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:43:47.117Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:43:48.269Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Oakridge","timestamp":"2023-10-01T22:43:48.270Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Valley Fair","timestamp":"2023-10-01T22:43:48.282Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Park Visitor Center","timestamp":"2023-10-01T22:43:48.283Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Tomorrow at Apple Los Gatos","timestamp":"2023-10-01T22:43:48.283Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Infinite Loop","timestamp":"2023-10-01T22:43:48.284Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:43:58.744Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:43:58.746Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:43:58.747Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:43:59.987Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Oakridge","timestamp":"2023-10-01T22:43:59.988Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Valley Fair","timestamp":"2023-10-01T22:44:00.001Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Park Visitor Center","timestamp":"2023-10-01T22:44:00.001Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Infinite Loop","timestamp":"2023-10-01T22:44:00.002Z"}
+{"level":"info","message":"Initializing app","timestamp":"2023-10-01T22:44:16.539Z"}
+{"level":"info","message":"Spawning checkProductAvailability monitor","timestamp":"2023-10-01T22:44:16.541Z"}
+{"level":"info","message":"Checking product availability for products: MGYH3AM/A","timestamp":"2023-10-01T22:44:16.541Z"}
+{"level":"info","message":"HTTP response status code: 200","timestamp":"2023-10-01T22:44:17.538Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Oakridge","timestamp":"2023-10-01T22:44:17.539Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Valley Fair","timestamp":"2023-10-01T22:44:17.551Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Park Visitor Center","timestamp":"2023-10-01T22:44:17.552Z"}
+{"level":"info","message":"Sending notification AirPods Max - Space Gray - Today at Apple Infinite Loop","timestamp":"2023-10-01T22:44:17.552Z"}
