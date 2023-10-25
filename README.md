@@ -4,17 +4,17 @@ Monitor that checks the availability of Apple products in stores and sending a D
 
 ## Features
 
-Monitor multiple products
+* Monitor multiple products in a given zip code
 
-Proper error handling
+* Proper error handling
 
-HTTP proxy support
+* HTTP proxy support
 
-Notifications using Discord webhooks
+* Notifications using Discord webhooks
 
-Supports United States, United Kingdom, Canada and Australia
+* Supports United States, United Kingdom, Canada and Australia
 
-Ability to remove certain stores from being checked
+* Ability to remove certain stores from being checked
 
 ## Installation
 
