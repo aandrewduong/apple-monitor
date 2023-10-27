@@ -1,2 +1,2 @@
-channelid,country,useFamily,products,family,maxDistance,zip,webhookURL,bannedStores,handleExceptionDelay,normalMonitorDelay,notificationTimeout
-1161138653674881044,us,Yes,"MU6Q3VC/A,MU6R3VC/A,MU6T3VC/A,MU6P3VC/A","iphone15pro,256gb+512gb,UNLOCKED/US,6_7inch",25,95148,https://discord.com/api/webhooks/1161138814585147402/-hodS4QkiIjrG4SixrsJNk9C2jxUTMy7tXSoi4lGFqNmOgGyNdvqCV21IXSWDpuzcgt7,,3000,1000,15000
+country,products,maxDistance,zip,webhookURL,bannedStores,handleExceptionDelay,normalMonitorDelay,notificationTimeout
+us,"MU683LL/A,MU683LL/A,MU663LL/A,MU693LL/A",25,95148,,"Los Gatos,Palo Alto",3000,1000,15000

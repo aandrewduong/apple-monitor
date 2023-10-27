@@ -177,7 +177,6 @@ const checkStoreAvailability = async (store, bannedStores, _country, maxDistance
     
         if (storedistance > maxDistance) return;
         if (bannedStores.includes(storeName)) return;
-        console.log(store);
         const notifications = await Promise.all(products.map(async product => {
             const shopPath = Math.random() < 0.5 ? `/${_country}-edu/shop` : `/${_country}/shop`;
             const productUrl = `https://www.apple.com${shopPath}/product/${product}`;
@@ -230,8 +229,6 @@ const checkProductAvailability = async (country, products, maxDistance, zip, web
         const shopPath = Math.random() < 0.5 ? `/${country}-edu/shop` : `/${country}/shop`;
         const endPoint = Math.random() < 0.5 ? `/retail/pickup-message` : `/fulfillment-messages`;
         const fulfillmentMessageRequestUrl = `https://www.apple.com${shopPath}${endPoint}?pl=true&mts.0=regular&${partsUrlQuery}&location=${zip}`;
-
-        console.log(fulfillmentMessageRequestUrl);
         const httpRequestOptions = {
             method: "GET",
             timeout: { request: 5000 },
@@ -270,45 +267,6 @@ const checkProductAvailability = async (country, products, maxDistance, zip, web
     }
 }
 
-const getProducts = async(country, family, _dimensionCapacity, _carrierModel, _dimensionScreensize) => {
-    try {
-        console.log("Getting products");
-        const productDetailsUrl = `https://www.apple.com/${country}/shop/product-locator-meta?family=${family}`;
-        const httpRequestOptions = {
-            method: "GET",
-            timeout: { request: 5000 },
-            url: productDetailsUrl,
-            headers: {
-                "Accept": "application/json",
-                "Accept-Language": "en-US,en,q=0.9",
-                "Pragma": "no-cache",
-                "User-Agent": "Googlebot"
-            },
-            responseType: "json",
-        };
-        const httpResponse = await got(httpRequestOptions);
-        const { body } = httpResponse.body;
-        const { productLocatorOverlayData } = body;
-        const { productLocatorMeta } = productLocatorOverlayData;
-        const { products } = productLocatorMeta;
-        
-        const matchingProducts = products.filter(product => {
-            return _dimensionCapacity.includes(product.dimensionCapacity)
-                && product.dimensionScreensize === _dimensionScreensize
-                && (_carrierModel === "N/A" || product.carrierModel === _carrierModel);
-        });
-
-        const _products = [];
-        await Promise.all(matchingProducts.map(product => {
-            _products.push(product.partNumber);
-        }));
-
-        return _products;
-    } catch (exception) {
-        console.log(exception);
-    }
-}
-
 const mainInit = async () => {
     logger.info("Initializing app");
 
@@ -328,20 +286,11 @@ const mainInit = async () => {
     );
     fs.createReadStream("../data.csv")
     .pipe(csvparser())
-    .on('data', async (row) => {
-        const { channelid,country,useFamily,products,family,maxDistance,zip,webhookURL,bannedStores,handleExceptionDelay,normalMonitorDelay,notificationTimeout } = row;
+    .on("data", async (row) => {
+        const { country,products,maxDistance,zip,webhookURL,bannedStores,handleExceptionDelay,normalMonitorDelay,notificationTimeout } = row;
         const _products = products.includes(",") ? products.split(",").map(product => product.trim()) : [products.trim()];
         const _bannedStores = bannedStores.includes(",") ? bannedStores.split(",").map(bannedStore => bannedStore.trim()) : [bannedStores.trim()];
-        if (useFamily) {
-            if (family.length > 0) {
-                const [ model, dimensionCapacity, carrierModel, dimensionScreensize ] = family.includes(",") ? family.split(",").map(family => family.trim()) : [family.trim()];
-                const _dimensionCapacity = dimensionCapacity.includes("+") ? dimensionCapacity.split("+").map(dimensionCapacity => dimensionCapacity.trim()) : [dimensionCapacity.trim()];
-                const __products = await getProducts(country, model, _dimensionCapacity, carrierModel, dimensionScreensize);
-                checkProductAvailability(country, __products,maxDistance,zip,webhookURL,_bannedStores, proxies, handleExceptionDelay,normalMonitorDelay,notificationTimeout);            
-            }
-        } else {
-            checkProductAvailability(country, _products,maxDistance,zip,webhookURL,_bannedStores, proxies, handleExceptionDelay,normalMonitorDelay,notificationTimeout);            
-        }
+        checkProductAvailability(country, _products,maxDistance,zip,webhookURL,_bannedStores, proxies, handleExceptionDelay,normalMonitorDelay,notificationTimeout);            
     });
 }
 

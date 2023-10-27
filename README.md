@@ -22,6 +22,15 @@ Install NPM packages
 ```sh
 npm install
 ```
+Setup the spreadsheet data.csv accordingly
+Example data
+
+```csv
+country,products,maxDistance,zip,webhookURL,bannedStores,handleExceptionDelay,normalMonitorDelay,notificationTimeout
+us,"MU683LL/A,MU683LL/A,MU663LL/A,MU693LL/A",25,95121,,"Los Gatos,Palo Alto",3000,1000,15000
+```
+
+Multiple products/models & Removing multiple stores is supported, seperated by (",")
 
 # Notification Example
 
