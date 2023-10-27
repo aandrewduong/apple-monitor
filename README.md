@@ -22,7 +22,14 @@ Install NPM packages
 ```sh
 npm install
 ```
+
+Run program
+```sh
+npm start
+```
+
 Setup the spreadsheet data.csv accordingly
+
 Example data
 
 ```csv
