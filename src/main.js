@@ -287,10 +287,10 @@ const mainInit = async () => {
     fs.createReadStream("../data.csv")
     .pipe(csvparser())
     .on("data", async (row) => {
-        const { country,products,maxDistance,zip,webhookURL,bannedStores,handleExceptionDelay,normalMonitorDelay,notificationTimeout } = row;
-        const _products = products.includes(",") ? products.split(",").map(product => product.trim()) : [products.trim()];
-        const _bannedStores = bannedStores.includes(",") ? bannedStores.split(",").map(bannedStore => bannedStore.trim()) : [bannedStores.trim()];
-        checkProductAvailability(country, _products,maxDistance,zip,webhookURL,_bannedStores, proxies, handleExceptionDelay,normalMonitorDelay,notificationTimeout);            
+        const { COUNTRY, PRODUCTS , MAXDISTANCE, ZIP , WEBHOOKURL ,BANNEDSTORES,HANDLEEXCEPTIONDELAY,NORMALMONITORDELAY,NOTIFICATIONTIMEOUT } = row;
+        const _products = PRODUCTS.includes(",") ? PRODUCTS.split(",").map(product => product.trim()) : [PRODUCTS.trim()];
+        const _bannedStores = BANNEDSTORES.includes(",") ? BANNEDSTORES.split(",").map(bannedStore => bannedStore.trim()) : [BANNEDSTORES.trim()];
+        checkProductAvailability(COUNTRY, _products,MAXDISTANCE,ZIP,WEBHOOKURL,_bannedStores, proxies, HANDLEEXCEPTIONDELAY,NORMALMONITORDELAY,NOTIFICATIONTIMEOUT);            
     });
 }
 
