@@ -1,44 +1,52 @@
 # Apple Webstore Monitor
 
-Monitor that checks the availability of Apple products in stores and sending a Discord notification when the product(s) are in stock
+Apple Webstore Monitor is an open-source program written in NodeJS designed to check the availability of products in Apple stores.
 
-## Features
+## Table of Contents
 
-* Monitor multiple products in a given zip code
+- [Key Features](#key-features)
+- [Prerequisites](#prerequisites)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Notification Example](#notification-example)
 
-* Proper error handling
+## Key Features
 
-* HTTP proxy support
+1. **Multi-product monitoring**: Ability to search multiple products in a given zip code.
+2. **Multi-country support**: Supports United States, United Kingdom, Canada and Australia.
 
-* Notifications using Discord webhooks
+## Prerequisites
 
-* Supports United States, United Kingdom, Canada and Australia
+- **Node**: You need a version >=18.16.0 of [Node](https://nodejs.org/en/download) installed.
+- **NPM**: You need a version of >=9.5.1 of NPM installed.
 
-* Ability to remove certain stores from being checked
+## Configuration 
 
-## Installation
+For the tool to function correctly, `data.csv` is required with the following data:
 
-Install NPM packages
-```sh
-npm install
+### data.csv Parameters
+
+| Parameter            | Description                                         | Example Values                               |
+|----------------------|-----------------------------------------------------|----------------------------------------------|
+| COUNTRY              | The country where the operation will be conducted   | `COUNTRY=us`                                 |
+| PRODUCTS             | List of product codes to monitor                    | `PRODUCTS=MU683LL/A,MU663LL/A,MU693LL/A`     |
+| MAXDISTANCE          | Maximum distance to cover from the zip code         | `MAXDISTANCE=25`                             |
+| ZIP                  | The zip code for the location of operation          | `ZIP=95121`                                  |
+| WEBHOOKURL           | Webhook URL for notifications                       |                                              |
+| BANNEDSTORES         | Stores to exclude from monitoring                   | `BANNEDSTORES=Los Gatos,Palo Alto`           |
+| HANDLEEXCEPTIONDELAY | Delay before handling an exception (in milliseconds)| `HANDLEEXCEPTIONDELAY=3000`                  |
+| NORMALMONITORDELAY   | Normal delay between monitoring cycles (in milliseconds) | `NORMALMONITORDELAY=1000`                |
+| NOTIFICATIONTIMEOUT  | Timeout for sending notifications (in milliseconds) | `NOTIFICATIONTIMEOUT=15000`                 |
+
+## Usage
+
+To run the program, run
+
+```
+cd src
+node .
 ```
 
-Run program
-```sh
-npm start
-```
+## Notification Example
 
-Setup the spreadsheet data.csv accordingly
-
-Example data
-
-```csv
-country,products,maxDistance,zip,webhookURL,bannedStores,handleExceptionDelay,normalMonitorDelay,notificationTimeout
-us,"MU683LL/A,MU683LL/A,MU663LL/A,MU693LL/A",25,95121,,"Los Gatos,Palo Alto",3000,1000,15000
-```
-
-Multiple products/models & Removing multiple stores is supported, seperated by (",")
-
-# Notification Example
-
-![Notification](https://cdn.discordapp.com/attachments/1152077130201571410/1166870194858229860/image.png)
+![Notification](https://cdn.discordapp.com/attachments/1022240002408730644/1168028448921497620/image.png)
