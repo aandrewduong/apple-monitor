@@ -49,4 +49,4 @@ node .
 
 ## Notification Example
 
-![Notification](https://cdn.discordapp.com/attachments/1022240002408730644/1168028448921497620/image.png)
+![Notification](https://cdn.discordapp.com/attachments/1152077130201571410/1166870194858229860/image.png)
