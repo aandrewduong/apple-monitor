@@ -49,4 +49,5 @@ node .
 
 ## Notification Example
 
-![Notification](https://cdn.discordapp.com/attachments/1152077130201571410/1166870194858229860/image.png)
+![image](https://github.com/aandrewduong/apple-monitor/assets/135930507/03abc308-ac8a-4a1a-9ad0-ccacd9aebbec)
+
